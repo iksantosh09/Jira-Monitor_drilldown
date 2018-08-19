@@ -425,9 +425,9 @@ Trending in AutoDB
 	col_names = ["Day", "Pass Rate", "# unique executed"]
 	rows = []
 	
-	conn = pymysql.connect(user='AutoDBUser', password='portal123!',
-								  host='172.16.204.44',
-								  database='AutomationDB')
+	conn = pymysql.connect(user='username', password='password1',
+								  host='ipaddress',
+								  database='databasetostore')
 
 	cursor = conn.cursor()
 
@@ -583,9 +583,9 @@ def Suites():
 
 	strQueryStartDate = "SUBDATE(CURRENT_DATE(), INTERVAL " + strQueryDateInterval + " DAY)"
 	
-	conn = pymysql.connect(user='AutoDBUser', password='portal123!',
-								  host='172.16.204.44',
-								  database='AutomationDB')
+	conn = pymysql.connect(user='username', password='password1',
+								  host='ipaddress',
+								  database='databasetostore')
 
 	cursor = conn.cursor()
 
@@ -670,9 +670,9 @@ Suite Stats in AutoDB for %s through %s
 @timeit
 def Products():
 	
-	conn = pymysql.connect(user='AutoDBUser', password='portal123!',
-								  host='172.16.204.44',
-								  database='AutomationDB')
+	conn = pymysql.connect(user='username', password='password1',
+								  host='ipaddress',
+								  database='databasetostore')
 
 	cursor = conn.cursor()
 
@@ -877,9 +877,9 @@ Today's AutoDB Stats
 
 """
 	
-	conn = pymysql.connect(user='AutoDBUser', password='portal123!',
-								  host='172.16.204.44',
-								  database='AutomationDB')
+	conn = pymysql.connect(user='username', password='password1',
+								  host='ipaddress',
+								  database='databasetostore')
 
 	cursor = conn.cursor()
 
