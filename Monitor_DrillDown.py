@@ -22,7 +22,6 @@ sender = "iksantosh@gmail.com"
 reportRecipients = ["youremailID"]
 
 headers = {"Authorization" : "Basic bmVlcmFqOmRvdGhpZ2gxMjM=", "Content-Type": "application/json"}
-#jiraServer = "http://jira.corp.sjc.shn:8080"
 jiraServer = "http://jiraserver:8080"
 jiraOptions={'server': jiraServer}
 
